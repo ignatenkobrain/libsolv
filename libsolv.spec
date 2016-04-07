@@ -49,7 +49,7 @@
 
 Name:           lib%{libname}
 Version:        0.6.19
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Package dependency solver
 
 License:        BSD
@@ -302,6 +302,9 @@ popd
 %endif
 
 %changelog
+* Thu Apr 07 2016 Igor Gnatenko <ignatenko@redhat.com> 0.6.19-4
+- new package built with tito
+
 * Tue Apr 05 2016 Igor Gnatenko <ignatenko@redhat.com> - 0.6.19-3
 - Reorganize spec file
 - Enable helixrepo feature
